@@ -1,0 +1,26 @@
+5 augusti, funkar med följande :
+
+Endast Player och Team.
+Låt bli att skapa databasen.
+
+ <persistence-unit name="MEDIA-PU" transaction-type="JTA">
+        <jta-data-source>jdbc/__mysqlIbmTutorial</jta-data-source>
+        <class>com.playerentity.Player</class>
+        <class>com.playerentity.Team</class>
+        <!--        
+        <class>se.mediaserver.tutorial.domain.Image</class>
+        <class>se.mediaserver.tutorial.domain.Media</class>
+        <class>se.mediaserver.tutorial.domain.Mediatext</class>
+        <class>se.mediaserver.tutorial.domain.Metadata</class>
+        -->
+   
+        <!--        <exclude-unlisted-classes>
+            false
+        </exclude-unlisted-classes>-->
+        <!--    <properties>
+          <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+          <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+        </properties>-->
+    </persistence-unit>
+    
+    
