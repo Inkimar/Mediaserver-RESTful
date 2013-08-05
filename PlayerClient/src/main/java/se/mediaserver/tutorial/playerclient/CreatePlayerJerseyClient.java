@@ -25,7 +25,7 @@ public class CreatePlayerJerseyClient {
         RestfulPlayer restful = new RestfulPlayer();
 
         Player player = new Player();
-        player.setFirstname("skuli");
+        player.setFirstname("ADAM");
         player.setLastname("gudmunds");
         player.setJerseynumber(51);
         player.setLastspokenwords("varsågod");
