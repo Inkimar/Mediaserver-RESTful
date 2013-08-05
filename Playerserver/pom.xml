@@ -129,7 +129,7 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
- <build>
+<!-- <build>
       <plugins>
           <plugin>
               <groupId>org.codehaus.mojo</groupId>
@@ -153,8 +153,8 @@
             </configuration>
          </plugin>
       </plugins>
-  </build>
-<!--    <build>
+  </build>-->
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -202,7 +202,7 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>-->
+    </build>
        <repositories>
         <repository>
             <url>http://download.eclipse.org/rt/eclipselink/maven.repo/</url>
