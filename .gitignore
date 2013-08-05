@@ -4,3 +4,15 @@
 *.jar
 *.war
 *.ear
+
+# target directories #
+/PlayerClient/target/
+/PlayerClient/nbproject/private/
+/Playerserver/target/
+/Playerserver/nbproject/private/
+/PlayerWebClient/target/
+/PlayerWebClient/nbproject/private/
+/PlayerDomain/target
+/PlayerDomain/nbproject/private
+
+/ImageWebProject/target/
