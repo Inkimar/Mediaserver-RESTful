@@ -1,0 +1,4 @@
+Running on Netbeans 7.3.1
+GROUP = Mediaserver-Restful-testing-1
+in Ubuntu ONE .
+Running on Glassfish 3, mysql database
